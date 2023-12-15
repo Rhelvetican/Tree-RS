@@ -1,7 +1,7 @@
 fn main() {
-    let i: i64 = 0;
+    let mut i = 0;
     while i < 1000000000 {
-        let i = i + 1;
+        i = i + 1
     }
     println!("{}", i);
 }
